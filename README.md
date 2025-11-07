@@ -49,7 +49,7 @@ Outlookメールの自動処理システムです。受信メールの要約、�
 ### 1. リポジトリのクローン
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/legacy2aiengineer-droid/mail-automation.git
 cd mail-automation
 ```
 

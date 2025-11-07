@@ -10,8 +10,18 @@
 
 ## ステップ1: ファイルの準備
 
-1. すべてのファイルをダウンロード
-2. 任意のディレクトリに展開
+### リポジトリのクローン
+
+```bash
+git clone https://github.com/legacy2aiengineer-droid/mail-automation.git
+cd mail-automation
+```
+
+または、ZIPファイルとしてダウンロード：
+
+1. https://github.com/legacy2aiengineer-droid/mail-automation にアクセス
+2. 「Code」→「Download ZIP」
+3. 任意のディレクトリに展開
 
 ## ステップ2: 依存パッケージのインストール
 

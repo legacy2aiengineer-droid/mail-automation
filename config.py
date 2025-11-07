@@ -41,7 +41,7 @@ class Config:
     TARGET_EMAIL = os.getenv('TARGET_EMAIL')
     
     # キーワード
-    KEYWORDS = ['カナデビア', '中村']
+    KEYWORDS = ['テックソリューション', '山田']
     NORMAL_KEYWORDS = ['OK', 'No Error', 'Healthy', '200']
     ABNORMAL_KEYWORDS = ['ERROR', 'FAIL', 'CRITICAL', 'Timeout']
     
@@ -69,8 +69,8 @@ class Config:
     MY_NAME = os.getenv('MY_NAME', '')
     
     # 返信テンプレート用の設定
-    MY_NAME_INTERNAL = os.getenv('MY_NAME_INTERNAL', '')  # 社内用の名前（例: 中村（康））
-    MY_COMPANY_NAME = os.getenv('MY_COMPANY_NAME', '')  # 会社名（例: 株式会社カナデビア）
+    MY_NAME_INTERNAL = os.getenv('MY_NAME_INTERNAL', '')  # 社内用の名前（例: 山田（太郎））
+    MY_COMPANY_NAME = os.getenv('MY_COMPANY_NAME', '')  # 会社名（例: 株式会社テックソリューション）
     INTERNAL_DOMAINS = os.getenv('INTERNAL_DOMAINS', '').split(',') if os.getenv('INTERNAL_DOMAINS') else []  # 社内ドメイン
     
     # テンプレートファイルのパス

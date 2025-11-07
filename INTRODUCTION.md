@@ -67,6 +67,8 @@
 - **Obsidian**: ナレッジベース構築
 - **Slack**: 異常通知
 
+**GitHubリポジトリ**: https://github.com/legacy2aiengineer-droid/mail-automation
+
 ## 対応環境
 
 ### メール接続方法（環境に応じて選択）
