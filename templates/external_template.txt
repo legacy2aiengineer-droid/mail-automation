@@ -1,0 +1,9 @@
+{sender_company}　{sender_name}様
+
+お世話になっております。
+{my_company}の{my_name}です。
+
+{body}
+
+以上、よろしくお願いいたします。
+

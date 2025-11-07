@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# 環境変数
+.env
+
+# 認証情報
+credentials/
+token.pickle
+*.json
+
+# ログファイル
+logs/
+*.log
+
+# Obsidian（個人のVaultはGit管理外）
+obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# その他
+*.bak
+*.tmp
+

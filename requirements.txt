@@ -1,0 +1,42 @@
+# メール自動化プロジェクト依存パッケージ
+
+# HTTP通信
+requests==2.31.0
+httpx==0.25.0
+
+# OpenAI API
+openai==1.3.0
+
+# Google Drive API
+google-api-python-client==2.100.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+
+# Slack API
+slack-sdk==3.23.0
+
+# 日付・時刻処理
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Markdown処理
+markdown==3.5.1
+
+# 環境変数管理
+python-dotenv==1.0.0
+
+# Microsoft Graph API（Azure AD認証用）
+msal==1.24.0
+requests==2.31.0
+
+# タイムゾーン処理
+tzlocal==5.0
+
+# Outlook COMオブジェクト（Windows限定、代替手段として）
+pywin32==306
+# 注意: Windows環境でのみ使用可能、基本認証不要
+
+# Exchange Web Services（クロスプラットフォーム対応）
+exchangelib==5.0.0
+# 注意: MacOS、Linux、Windowsで使用可能、IMAPが無効でも動作
+
